@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-
+import "./app.css"
+import React, { Component } from 'react'
+import messages from './messages'
+import Disscussion from "./components/Discussion";
 class App extends Component {
-   
-    
+
+     
     render() {
         return (
-            <div>
-               
-               hello  world ! 
-            </div>
+            <Disscussion messages={messages} />
         );
     }
 }
